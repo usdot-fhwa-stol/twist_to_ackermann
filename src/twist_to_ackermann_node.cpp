@@ -26,6 +26,7 @@ auto yaw_rate_to_steering_angle(double speed, double yaw_rate, double wheel_base
     return 0.0;
   }
 
+  // TODO: See if the negative should be a parameter. It might be specific to vehicle configurations.
   return -std::atan(wheel_base / (speed / yaw_rate));
 }
 
