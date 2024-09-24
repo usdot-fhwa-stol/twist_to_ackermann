@@ -2,6 +2,9 @@
 
 twist_to_ackermann is a new repository that was developed to translate ROS 2 messages from desired velocities (std_msgs/msg/Twist) to steering and velocity commands for an Ackermann vehicle (ackermann_msgs/msg/AckermannDriveStamped). 
 
+See [Planning for car-like robots](https://wiki.ros.org/teb_local_planner/Tutorials/Planning%20for%20car-like%20robots)
+from the ROS 1 TEB Local Controller package for the original implementation.
+
 ## Contribution
 Welcome to the CARMA contributing guide. Please read this guide to learn about our development process, how to propose pull requests and improvements, and how to build and test your changes to this project. [CARMA Contributing Guide](https://github.com/usdot-fhwa-stol/carma-platform/blob/develop/Contributing.md) 
 
